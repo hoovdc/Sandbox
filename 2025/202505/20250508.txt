@@ -1,0 +1,32 @@
+AI prompts on scoring
+
+# INTRO #######################
+
+I'm developing a Python project on Windows 11 (sometimes MacOS Sequoia) using Cursor IDE
+Fully review Docs/README.md, Docs/backlog/Backlog.md items related to scoring, and all docs contained in Docs\scoring
+Then review all project code related to scoring.
+Are all of these docs and code files clear and consistent with each other?  
+When the project is clear, I'll provide details on areas I need help.
+
+# OLD #######################
+
+
+I'm on Windows 11 (sometimes MacOS Sequoia) using Cursor IDE and a git bash terminal.
+Review my full project codebase and structure.
+Review the flow of data through my project.
+Review Docs/README.md and ask me questions if my coding project is unclear.
+Do my project documents accurately reflect the state of the project codebase?
+
+I need help understanding and then tuning the scoring system which is described here @scoring_README.md 
+Inspect the scoring system code.  Does it match that doc?
+Examine how data is transformed between extraction and display
+Consider how focused diagnostic logging via the central logging system could be used to follow the data flow path.
+Don't make any changes yet.  Just show me deep understanding of these things.
+
+
+
+Do an exhaustive review of the scoring code, comments, and docs.  What are the top areas of improvement?  Does the plan documented in Docs\scoring\scoring_plan_phase2.md resolve these top issues effectively?
+
+Help me troubleshoot why the scoring system is producing values of 0 for most scoring areas (all but demographic)  for multiple input addresses.  
+
+Where it's simple and easy, take opportunities during this effort to reduce the lines of code and comments in @Full_data_by_address.py , which is overloaded with specialty code and comments despite being a central file.  
